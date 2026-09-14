@@ -1,0 +1,30 @@
+# зависимости
+node_modules
+.pnp
+.pnp.js
+
+# сборка
+.next
+out
+build
+dist
+*.tsbuildinfo
+
+# переменные окружения и секреты
+.env
+.env*.local
+
+# логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# системное
+.DS_Store
+Thumbs.db
+.idea
+.vscode
+coverage
+.env.txt
+.env
